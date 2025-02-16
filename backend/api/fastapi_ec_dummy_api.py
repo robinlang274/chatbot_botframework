@@ -8,6 +8,7 @@ app = FastAPI()
 
 # Cosmos DB 接続情報
 COSMOS_DB_URL = "https://chatbotdb274.documents.azure.com:443/"
+COSMOS_DB_KEY = "xo18BnffDOis94SwdI0RvjxiPEUKnXVrtKa7APVSGTjjAgtevdkceLrX2RSPM9vtkyQkw9hOJX0zACDbehce5w=="
 DATABASE_NAME = "chatbotdb"
 PRODUCTS_CONTAINER = "products"
 ORDERS_CONTAINER = "orders"

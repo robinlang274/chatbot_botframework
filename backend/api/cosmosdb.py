@@ -2,6 +2,7 @@ from azure.cosmos import CosmosClient
 
 # 连接到 Cosmos DB
 COSMOS_DB_URL = "https://chatbotdb274.documents.azure.com:443/"
+COSMOS_DB_KEY = "xo18BnffDOis94SwdI0RvjxiPEUKnXVrtKa7APVSGTjjAgtevdkceLrX2RSPM9vtkyQkw9hOJX0zACDbehce5w=="
 
 client = CosmosClient(COSMOS_DB_URL, COSMOS_DB_KEY)
 
